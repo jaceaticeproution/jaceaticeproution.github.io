@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+
 #main-heading {
     font-family: 'Bebas Neue', monospace;
     font-weight: bold;
@@ -36,14 +37,53 @@
     height: auto;
 }
 
+#shop-logo {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 60px;
+    z-index: 998;
+    left: 0;
+}
+
+.shop-alert {
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 70px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#shop-desc {
+    position: relative; 
+    width: -moz-fit-content;
+    width: fit-content;
+    font-family: 'Bebas Neue', monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    float: left;
+    margin: 0;
+}
+
+#shop-logo img {
+    height: 100%;
+    width: auto;
+}
+
 .description {
+    display: block;
     position: absolute;
     top: 35%; 
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    font-family: 'Courier Prime', monospace;
+    /* font-family: 'Courier Prime', monospace; */
+    font-family: 'Bebas Neue', monospace;
+    font-style: italic;
     background-color: white;
     width: 60%;
     font-size: 20px;
@@ -77,10 +117,41 @@ footer {
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
-        font-family: 'Courier Prime', monospace;
+        font-family: 'Bebas Neue', monospace;
         background-color: white;
         width: 60%;
         font-size: 15px;
+    }
+
+    #shop-logo {
+        position: relative;
+        float: left;
+        width: 50px;
+        height: 30px;
+        z-index: 998;
+        left: 0;
+    }
+    
+    .shop-alert {
+        width: fit-content;
+        width: -moz-fit-content;
+        height: 30px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    #shop-desc {
+        position: relative; 
+        width: -moz-fit-content;
+        width: fit-content;
+        font-family: 'Bebas Neue', monospace;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+        float: left;
+        margin: 0;
     }
 
     footer {
@@ -103,11 +174,43 @@ footer {
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
-        font-family: 'Courier Prime', monospace;
+        font-family: 'Bebas Neue', monospace;
         background-color: white;
         width: 60%;
         font-size: 13px;
     }
+
+    #shop-logo {
+        position: relative;
+        float: left;
+        width: 30px;
+        height: 15px;
+        z-index: 998;
+        left: 0;
+    }
+    
+    .shop-alert {
+        width: fit-content;
+        width: -moz-fit-content;
+        height: 15px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    #shop-desc {
+        position: relative; 
+        width: -moz-fit-content;
+        width: fit-content;
+        font-family: 'Bebas Neue', monospace;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 15px;
+        float: left;
+        margin: 0;
+    }
+
     body {
         background-color: black;
     }
