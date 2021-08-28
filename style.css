@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body {
+    background-color: black;
+}
+
 #joint {
     position: absolute;
     z-index: 999;
@@ -229,10 +233,6 @@ footer {
         left: 0;
         background-color: white;
     }
-
-    body {
-        background-color: black;
-    }
 }
 
 @media screen and (max-width: 450px) {
@@ -314,9 +314,5 @@ footer {
         font-size: 15px;
         float: left;
         margin: 0;
-    }
-
-    body {
-        background-color: black;
     }
 }
